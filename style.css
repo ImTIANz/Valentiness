@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('bgg.gif') center/cover no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #e74c3c;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+}
+
+#noBtn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+}
+
+.love-quote {
+    color: #e74c3c;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#toggleMusicBtn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+}
+
+
+.love-letter-section {
+    margin-top: 20px;
+}
+
+#loveLetter {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+}
+
+.countdown-timer {
+    margin-top: 20px;
+    color: #e74c3c;
+    font-size: 24px;
+}
